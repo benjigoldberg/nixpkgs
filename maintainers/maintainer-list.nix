@@ -2262,6 +2262,12 @@
       fingerprint = "9D84 09A0 44FC 1EEB AE2D  FA30 FB96 24E2 885D 55A4";
     }];
   };
+  benjigoldberg = {
+    name = "Benjamin Goldberg";
+    email = "bgoldber88@gmail.com";
+    github = "benjigoldberg";
+    githubId = 6841489;
+  };
   benkuhn = {
     email = "ben@ben-kuhn.com";
     github = "ben-kuhn";

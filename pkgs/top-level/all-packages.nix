@@ -739,6 +739,10 @@ with pkgs;
 
   inspec = callPackage ../tools/misc/inspec { };
 
+  jankyborders = callPackage ../os-specific/darwin/jankyborders {
+    inherit (darwin.apple_sdk.frameworks) AppKit SkyLight;
+  };
+
   buildcatrust = with python3.pkgs; toPythonApplication buildcatrust;
 
   probe-rs = callPackage ../development/tools/rust/probe-rs {
